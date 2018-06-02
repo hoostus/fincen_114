@@ -9,11 +9,17 @@ Assets:AUS:First-State-Super $122,568 ABC789
 ...
 ```
 
+Using this script means
+
+1. You don't accidentally forget any accounts.
+2. You don't have to remember/lookup/calculate the maximum account value in $USD.
+3. You dont' have to lookup the account numbers of all your foreign accounts.
+
 # FinCEN 114
 
 FinCEN Report 114[1] is required to be filed every year for Americans who
 hold a bank account overseas. You have to list every foreign bank account,
-along with the maximum account value during the year, the account number,
+**along with the maximum account value during the year**, the account number,
 the name of the institution, and some other similar details.
 
 For many Americans, this is not necessarily challenging to gather. If you
@@ -48,9 +54,9 @@ a value of $0 for the account, regardless of what is in it.)
 
 # Option summary
 
-```---year``` the calendar year to use
-```--only-account``` Instead of listing all accounts, you can specify which accounts you care about.
-```--meta-account-number``` This is the metadata on the account opening directive that includes the account number. By default it will look for *account-number*
+* ```---year``` the calendar year to use
+* ```--only-account``` Instead of listing all accounts, you can specify which accounts you care about.
+* ```--meta-account-number``` This is the metadata on the account opening directive that includes the account number. By default it will look for *account-number*
 
 [1]: https://bsaefiling.fincen.treas.gov/NoRegFBARFiler.html
 [2]: https://bitbucket.org/blais/beancount/overview
