@@ -13,7 +13,7 @@ Using this script means
 
 1. You don't accidentally forget any accounts.
 2. You don't have to remember/lookup/calculate the maximum account value in $USD.
-3. You dont' have to lookup the account numbers of all your foreign accounts.
+3. You don't have to lookup the account numbers of all your foreign accounts.
 
 # FinCEN 114
 
@@ -54,7 +54,7 @@ a value of $0 for the account, regardless of what is in it.)
 
 # Option summary
 
-* ```---year``` the calendar year to use
+* ```--year``` the calendar year to use
 * ```--only-account``` Instead of listing all accounts, you can specify which accounts you care about.
 * ```--meta-account-number``` This is the metadata on the account opening directive that includes the account number. By default it will look for *account-number*
 
