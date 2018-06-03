@@ -17,12 +17,15 @@ Using this script means
 
 # FinCEN 114
 
-FinCEN Report 114[1] is required to be filed every year for Americans who
-hold a bank account overseas. You have to list every foreign bank account,
-**along with the maximum account value during the year**, the account number,
-the name of the institution, and some other similar details.
+FinCEN Report 114[1], or Report of Foreign Bank and Financial Accounts
+(FBAR), is required to be filed every year by US persons (basically, US
+citizen and residents) who hold a bank account overseas and whose aggregate
+value of all foreign financial accounts exceeds $10,000 in any year.  You
+have to list every foreign bank account, **along with the maximum account
+value during the year**, the account number, the name of the institution,
+and some other similar details.
 
-For many Americans, this is not necessarily challenging to gather. If you
+For many US persons, this is not necessarily challenging to gather. If you
 have a lot of accounts and the value of those accounts has varied substantially
 then it becomes a little bit harder.
 
