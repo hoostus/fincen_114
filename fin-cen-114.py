@@ -34,12 +34,12 @@ def this_year(year, p):
     return get_date(p).year == year
 
 def add_position(p, inventory):
-        if isinstance(p, beancount.core.data.Posting):
-            inventory.add_position(p)
-        elif isinstance(p, beancount.core.data.TxnPosting):
-            inventory.add_position(p.posting)
-        else:
-            raise Exception("Not a Posting or TxnPosting", p)
+    if isinstance(p, beancount.core.data.Posting):
+        inventory.add_position(p)
+    elif isinstance(p, beancount.core.data.TxnPosting):
+        inventory.add_position(p.posting)
+    else:
+        raise Exception("Not a Posting or TxnPosting", p)
 
 def start_of_year_inventory(year, postings):
     balance = beancount.core.inventory.Inventory()
